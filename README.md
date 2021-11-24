@@ -1,9 +1,9 @@
 3proxy running on Openwrt/LEDE
 ===
 
-* 3proxy-0.9-devel-20180704
-  clone from https://github.com/muziling/3proxy-openwrt.git  
-  The successfully compiled ipk package is installed in openwrt. There is only one executable "/usr/bin/3proxy".
+* 3proxy-0.9-devel-20180704   
+  clone from https://github.com/muziling/3proxy-openwrt.git   
+  The successfully compiled ipk package is installed in openwrt. There is only one executable "/usr/bin/3proxy".  
 
 编译/Compile
 ---
