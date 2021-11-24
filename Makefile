@@ -1,7 +1,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=3proxy
-PKG_VERSION=0.8.13
+PKG_VERSION=0.9.3
 
 PKG_MAINTAINER:=muziling <lls924@gmail.com>
 PKG_LICENSE:=GPLv2
@@ -9,7 +9,7 @@ PKG_LICENSE_FILES:=LICENSE
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/3proxy/3proxy.git
-PKG_SOURCE_VERSION:=e85b064b52296502a1dab648988a56e510088b76
+PKG_SOURCE_VERSION:=0c902525e57bc8105434b4fe86ef0832832012d2
 
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)
 PKG_SOURCE:=$(PKG_VERSION).tar.gz
@@ -35,7 +35,7 @@ endef
 
 define Package/3proxy/install
 	$(INSTALL_DIR) $(1)/usr/bin
-	$(INSTALL_BIN) $(PKG_BUILD_DIR)/src/3proxy $(1)/usr/bin/3proxy
+	$(INSTALL_BIN) $(PKG_BUILD_DIR)/bin/3proxy $(1)/usr/bin/3proxy
 endef
 
 $(eval $(call BuildPackage,3proxy))
