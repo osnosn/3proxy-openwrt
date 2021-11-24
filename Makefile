@@ -35,7 +35,7 @@ endef
 
 define Package/3proxy/install
 	$(INSTALL_DIR) $(1)/usr/bin
-	$(INSTALL_BIN) $(PKG_BUILD_DIR)/bin/3proxy $(1)/usr/bin/3proxy
+	$(INSTALL_BIN) $(PKG_BUILD_DIR)/src/3proxy $(1)/usr/bin/3proxy
 endef
 
 $(eval $(call BuildPackage,3proxy))
