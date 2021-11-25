@@ -6,7 +6,7 @@
   The successfully compiled ipk package is installed in openwrt. There is only one executable "/usr/bin/3proxy".  
 * 3proxy-0.8.13   
   copied from https://github.com/wenzhuoz/3proxy-openwrt   
-  and fix it.
+  and fix it.  
   The successfully compiled ipk package is installed in openwrt. There is only one executable "/usr/bin/3proxy".  
 * 3proxy-0.9.3   
   copied from https://github.com/lunatickochiya/3proxy-openwrt   
