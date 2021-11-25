@@ -1,8 +1,10 @@
 3proxy running on Openwrt/LEDE
 ===
 
-The successfully compiled ipk package is installed in openwrt. There is only one executable "/usr/bin/3proxy".   
-编译后的ipk，安装到openwrt内，只有一个 "/usr/bin/3proxy" 的执行文件。需要自己写配置文件，启动脚本。  
+The successfully compiled ipk package is installed in openwrt.    
+There is only one executable "/usr/bin/3proxy".   
+编译后的ipk，安装到openwrt内，只有一个 "/usr/bin/3proxy" 的执行文件。   
+需要自己写配置文件，启动脚本。  
 * 3proxy-0.9-devel-20180704 (v0.9-devel)   
   clone from https://github.com/muziling/3proxy-openwrt.git   
 * 3proxy-0.8.13 (v0.8.13)   
