@@ -39,3 +39,14 @@ make menuconfig
 make package/3proxy/compile V=s
 # found ipk in bin/packages/.....
 ```
+OR
+```
+# Using the SDK to cross compile packages
+cd openwrt
+git clone -b v0.9.4 --depth 1 https://github.com/osnosn/3proxy-openwrt.git package/3proxy 
+rm -rf tmp/
+./scripts/feeds update -a
+./scripts/feeds install -a
+make menuconfig
+make package/3proxy/compile V=s
+```
