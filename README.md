@@ -20,13 +20,15 @@
 ```bash
 # Using the SDK to cross compile packages
 cd openwrt
-git clone https://github.com/osnosn/3proxy-openwrt.git feeds/packages/net/3proxy
-cd  feeds/packages/net/3proxy
+git clone https://github.com/osnosn/3proxy-openwrt.git package/3proxy 
+# OR
+#git clone https://github.com/osnosn/3proxy-openwrt.git feeds/packages/net/3proxy
+cd  package/3proxy
 #git checkout v0.9-devel
 #git checkout v0.8.13
 #git checkout v0.9.3
 git checkout v0.9.4
-cd  ../../../../
+cd  ../../
 rm -rf tmp/
 
 ./scripts/feeds update -a
@@ -35,5 +37,6 @@ rm -rf tmp/
 make menuconfig
 # find it in "Network" -> "Web Servers/Proxies" -> "3proxy"
 make package/3proxy/compile V=s
-# found ipk in bin/packages/...../packages/
+# found ipk in bin/packages/...../base/
+#   OR in bin/packages/...../packages/
 ```
