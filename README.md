@@ -37,6 +37,5 @@ rm -rf tmp/
 make menuconfig
 # find it in "Network" -> "Web Servers/Proxies" -> "3proxy"
 make package/3proxy/compile V=s
-# found ipk in bin/packages/...../base/
-#   OR in bin/packages/...../packages/
+# found ipk in bin/packages/.....
 ```
