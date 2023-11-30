@@ -14,11 +14,12 @@ There is only one executable "/usr/bin/3proxy".
   copied from https://github.com/lunatickochiya/3proxy-openwrt   
 * 3proxy-0.9.4 (v0.9.4)   
 * 3proxy-0.9.4 (v0.9.4-20220831)   
+* 3proxy-0.9.4 (v0.9.4-20231011)   
 
 编译/Compile
 ---
 
-```
+```bash
 # Using the SDK to cross compile packages
 cd openwrt
 git clone --depth 1 https://github.com/osnosn/3proxy-openwrt.git package/3proxy 
