@@ -1,16 +1,16 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=3proxy
-PKG_VERSION:=0.9.4
-PKG_RELEASE:=20231011
+PKG_VERSION:=0.9.5
+PKG_RELEASE:=20250506
 
-PKG_MAINTAINER:=muziling <lls924@gmail.com>
+PKG_MAINTAINER:=Vladimir "3APA3A" Dubrovin <3proxy@3proxy.ru>, osnosn <osnosn@not-mail.github.com>
 PKG_LICENSE:=GPLv2
 PKG_LICENSE_FILES:=LICENSE
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/3proxy/3proxy.git
-PKG_SOURCE_VERSION:=a80bef9ecf0c0ed98ccb1a1a764f6b79a620b78f
+PKG_SOURCE_VERSION:=dc4e8d3427af1d220ae90698f49a1072748f42f3
 
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)
 PKG_SOURCE:=$(PKG_VERSION).tar.gz

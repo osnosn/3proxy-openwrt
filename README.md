@@ -15,6 +15,7 @@ There is only one executable "/usr/bin/3proxy".
 * 3proxy-0.9.4 (v0.9.4)   
 * 3proxy-0.9.4 (v0.9.4-20220831)   
 * 3proxy-0.9.4 (v0.9.4-20231011)   
+* 3proxy-0.9.5 (v0.9.5-20250506)   
 
 编译/Compile
 ---
@@ -23,7 +24,7 @@ There is only one executable "/usr/bin/3proxy".
 # Using the SDK to cross compile packages
 cd openwrt
 git clone --depth 1 https://github.com/osnosn/3proxy-openwrt.git package/3proxy 
-#git clone -b v0.9.4-20220831 --depth 1 https://github.com/osnosn/3proxy-openwrt.git package/3proxy 
+#git clone -b v0.9.4-20231011 --depth 1 https://github.com/osnosn/3proxy-openwrt.git package/3proxy 
 rm -rf tmp/
 ./scripts/feeds update -a
 ./scripts/feeds install -a
@@ -44,7 +45,9 @@ cd  package/3proxy
 #git checkout v0.8.13
 #git checkout v0.9.3
 #git checkout v0.9.4
-git checkout v0.9.4-20220831
+#git checkout v0.9.4-20220831
+#git checkout v0.9.4-20231011
+git checkout v0.9.5-20250506
 cd  ../../
 rm -rf tmp/
 ./scripts/feeds update -a
